@@ -9,7 +9,7 @@ import re
 import sqlite3
 import os
 import time
-import sqlite3
+import aiosqlite
 import shutil
 from typing import Dict, List, Set, Optional
 from flask import Flask, send_from_directory
