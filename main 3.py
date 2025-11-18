@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-import os
-os.environ["DISCORD_INTERACTIONS"] = "false"
-os.environ["DISCORD_VOICE"] = "false"
-
 import discord
 from discord.ext import commands
 import asyncio
